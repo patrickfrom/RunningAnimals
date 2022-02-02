@@ -8,7 +8,7 @@ namespace RunningAnimals
     {
         public int RaceID;
         public List<Animal> Animals = new List<Animal>();
-        public List<int> _traps = new List<int>();
+        private List<int> _traps = new List<int>();
         public Track RaceTrack;
         private Animal _winner;
         private string _log;
@@ -49,8 +49,12 @@ namespace RunningAnimals
                         _winner = animal;
                 }
             }
-            
             logRace();
+            _winner = null;
+            foreach (Animal animal in Animals)
+            {
+                animal.ResetAnimal();
+            }
         }
 
         public Animal GetWinner() => _winner;
@@ -59,14 +63,13 @@ namespace RunningAnimals
 
         private void logRace()
         {
+            _log = "";
             _log += $"Winning Animal: {GetWinner().Name}\n";
 
             foreach (Animal animal in Animals)
             {
                 _log += $"\nName: {animal.Name}\nAnimal Type: {animal.AnimalName}\nPosition: {animal.Position}\n";
             }
-
-            _log += "\n####################";
         }
     }
 }

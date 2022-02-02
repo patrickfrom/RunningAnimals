@@ -74,7 +74,7 @@
             this.AnimalListText.Location = new System.Drawing.Point(12, 12);
             this.AnimalListText.Name = "AnimalListText";
             this.AnimalListText.ReadOnly = true;
-            this.AnimalListText.Size = new System.Drawing.Size(212, 426);
+            this.AnimalListText.Size = new System.Drawing.Size(212, 453);
             this.AnimalListText.TabIndex = 2;
             this.AnimalListText.Text = "";
             // 
@@ -99,7 +99,7 @@
             this.PlayerCreationPanel.Controls.Add(this.AnimalComboChoice);
             this.PlayerCreationPanel.Controls.Add(this.PlayerNameInput);
             this.PlayerCreationPanel.Controls.Add(this.CreatePlayerButton);
-            this.PlayerCreationPanel.Location = new System.Drawing.Point(527, 98);
+            this.PlayerCreationPanel.Location = new System.Drawing.Point(527, 129);
             this.PlayerCreationPanel.Name = "PlayerCreationPanel";
             this.PlayerCreationPanel.Size = new System.Drawing.Size(261, 336);
             this.PlayerCreationPanel.TabIndex = 4;
@@ -260,7 +260,7 @@
             // StartRaceButton
             // 
             this.StartRaceButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.StartRaceButton.Location = new System.Drawing.Point(469, 389);
+            this.StartRaceButton.Location = new System.Drawing.Point(469, 416);
             this.StartRaceButton.Name = "StartRaceButton";
             this.StartRaceButton.Size = new System.Drawing.Size(319, 49);
             this.StartRaceButton.TabIndex = 12;
@@ -275,10 +275,10 @@
             this.WinningPlayerLabel.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.WinningPlayerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
             this.WinningPlayerLabel.ForeColor = System.Drawing.SystemColors.Window;
-            this.WinningPlayerLabel.Location = new System.Drawing.Point(239, 81);
+            this.WinningPlayerLabel.Location = new System.Drawing.Point(239, 79);
             this.WinningPlayerLabel.Name = "WinningPlayerLabel";
             this.WinningPlayerLabel.ReadOnly = true;
-            this.WinningPlayerLabel.Size = new System.Drawing.Size(212, 357);
+            this.WinningPlayerLabel.Size = new System.Drawing.Size(212, 386);
             this.WinningPlayerLabel.TabIndex = 13;
             this.WinningPlayerLabel.Text = "";
             // 
@@ -287,7 +287,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 477);
             this.Controls.Add(this.WinningPlayerLabel);
             this.Controls.Add(this.StartRaceButton);
             this.Controls.Add(this.PlayerInfoPanel);

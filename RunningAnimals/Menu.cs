@@ -46,8 +46,6 @@ namespace RunningAnimals
             {
                 AnimalListText.Text += $"Name: {animal.Name}\nType: {animal.AnimalName}\nCape: {animal.cape.Name}\n\n";
             }
-
-           //raceManager.ConductRace(raceManager.Races[0]);
         }
 
         void GenerateTracks()
@@ -94,7 +92,7 @@ namespace RunningAnimals
                     animal = raceManager.CreateAnimal(new Dog("Mr Husky", cape));
                     break;
                 case "Duck":
-                    animal = raceManager.CreateAnimal(new Dog("Mr Husky", cape));
+                    animal = raceManager.CreateAnimal(new Duck("Anders And", cape));
                     break;
                 default:
                     break;
